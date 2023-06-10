@@ -1,2 +1,3 @@
-# iac-demo
-An infrastructure-as-code demo for Azure
+# Infrastucture-as-Code Demo
+
+An infrastructure-as-code demo for Azure.
