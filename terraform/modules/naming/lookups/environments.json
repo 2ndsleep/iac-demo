@@ -1,0 +1,7 @@
+{
+    "dev": "Development",
+    "tst": "Test",
+    "stg": "Staging",
+    "prd": "Production",
+    "inf": "Infrastructure"
+}
