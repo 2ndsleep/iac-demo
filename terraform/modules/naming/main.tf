@@ -1,6 +1,6 @@
 locals {
   name          = "${var.org}-${var.workload}-${var.env}-${var.instance}"
-  organizations = jsondecode(file("${path.module}lookups/organizations.json"))
+  organizations = jsondecode(file("${path.module}/lookups/organizations.json"))
   environments  = jsondecode(file("${path.module}/lookups/environments.json"))
   workloads     = jsondecode(file("${path.module}/lookups/workloads.json"))
   environment   = lookup(local.environments, var.env)
