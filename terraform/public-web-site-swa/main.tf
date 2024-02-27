@@ -8,3 +8,7 @@ resource "azurerm_static_site" "public_site" {
   resource_group_name = azurerm_resource_group.public_site.name
   location = azurerm_resource_group.public_site.location
 }
+
+output "static_site_hostname" {
+  value = azurerm_static_site.public_site.default_host_name
+}
